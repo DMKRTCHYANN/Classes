@@ -32,7 +32,7 @@ class Console {
         }
     }
 
-    historyy(range = [0, 0]) {
+    history(range = [0, 0]) {
         const [start, end] = range;
         let res = ""
         for (let i = start; i < end; i++) {
@@ -54,6 +54,6 @@ const fancyConsole = new Console('Fancy');
 
 myConsole.log([0, 1, 2, 3]) // "Regular: [0,1,2,3]"
 myConsole.log({ a:1, b:2 }) // "Fancy: {a:1, b:2}"
-myConsole.log("ok : ", 1, 2, 3) ➞ "ok : 1, 2, 3"
+myConsole.log("ok : ", 1, 2, 3) 
 myConsole.clearHistory() // true
-myConsole.history() // ""
+myConsole.history() // "" 

@@ -61,4 +61,3 @@ myConsole.log("ok : ", 1, 2, 3); // "ok : 1, 2, 3"
 myConsole.clearHistory(); // true
 myConsole.history(); // ""
 
-
